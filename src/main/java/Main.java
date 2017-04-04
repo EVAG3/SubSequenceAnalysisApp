@@ -17,7 +17,7 @@ public class Main {
 	 * @param args
 	 *            the input command
 	 */
-	void main(String[] args) {
+	public static void main(String[] args) {
 		System.out.println("[INFO ] Please give the correct file name in the following");
 		Scanner cmdScanner = null;
 		try {
