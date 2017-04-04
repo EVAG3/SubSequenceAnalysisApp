@@ -3,6 +3,7 @@ package test.java;
 import java.io.File;
 import java.io.IOException;
 
+import org.junit.Ignore;
 import org.junit.Test;
 
 import main.java.Analysis;
@@ -46,6 +47,7 @@ public class MainTest {
 		int[] kn = FileReader.getNK(inputFile);
 		int[] array = FileReader.getArray(inputFile);
 		Analysis.analyze(kn[0], kn[1], array);
+		// should print 3,0,-1 as demonstrated
 	}
 
 }
